@@ -1,0 +1,85 @@
+{
+    "firstName": "John",
+    "middleName": "",
+    "lastName": "Doe",
+    "phone": "9999123123",
+    "emailId": "john@doe.com",
+    "currentCity": "Bangalore",
+    "panNumber": "AAAPA1234A",
+    "dateOfBirth": "1983-01-16",
+    "aadhaarNumber": "123412341234",
+    "gender": "MALE",
+    "maritalStatus": "MARRIED",
+    "monthlyIncome": [{
+            "month": 1,
+            "year": 2017,
+            "amount": "27000"
+        },
+        {
+            "month": 2,
+            "year": 2017,
+            "amount": "27000"
+        },
+        {
+            "month": 3,
+            "year": 2017,
+            "amount": "27001"
+        }
+    ],
+    "officeEmail": "john@office.com",
+    "companyName": "Microsoft",
+    "companyType": "PRIVATE_LIMITED",
+    "employmentType": "FULL_TIME",
+    "jobType": "SALARIED",
+    "officeAddress": {
+        "addressLine1": "123, Some street,",
+        "addressLine2": "main road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560001"
+    },
+    "homeAddress": {
+        "addressLine1": "987,some other street",
+        "addressLine2": "2nd main road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560002"
+    },
+    "residenceType": "OWNED_BY_SELF_SPOUSE",
+    "currentCityDuration": {
+        "months": 1,
+        "years": 4
+    },
+    "currentHomeAddressDuration": {
+        "months": 1,
+        "years": 1
+    },
+    "selfEmployedAdditionalDetails": {
+        "firstCredit": "",
+        "openCredit": ""
+    },
+    "currentWorkExperience": {
+        "months": 1,
+        "years": 4
+    },
+    "totalWorkExperience": {
+        "months": 1,
+        "years": 1
+    },
+    "documentCollector": "money-tap",
+    "softApprovalStatus": "success",
+    "finalApprovalStatus": "processing",
+    "amount": "75000",
+    "bank": "RBL",
+    "documentsUploaded": [{
+            "fileName": "selfie.jpg",
+            "documentType": "SELFIE",
+            "purpose": "SELFIE_UPLOAD"
+        },
+        {
+            "fileName": "aadhaar.jpg",
+            "documentType": "aadhaar_card",
+            "purpose": "ID_PROOF"
+        }
+    ]
+}
