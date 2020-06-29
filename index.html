@@ -20,10 +20,7 @@
             background: linear-gradient(#00A3F6 50%, #fff 50%);
             min-height: 100vh;
             min-width: 700px;
-        }
-        
-         ::-webkit-scrollbar {
-            width: 0px;
+            overflow: auto;
         }
         
         .table_wrapper {
@@ -36,6 +33,10 @@
             border-radius: 10px;
             background: #fff;
             animation: 3s cubic-bezier(0.6, 0.04, 0.98, 0.335) table_wrapper;
+        }
+        
+        .table_wrapper::-webkit-scrollbar {
+            width: 0px;
         }
         
         @keyframes table_wrapper {
