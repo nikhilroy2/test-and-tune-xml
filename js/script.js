@@ -80,7 +80,8 @@ xhttp.onreadystatechange = function() {
                 currentWorkExperience,
                 totalWorkExperience,
                 documentsUploaded,
-                error
+                error,
+                loanTerms
             } = data;
 
             let entryName = Object.entries(data);
@@ -288,6 +289,29 @@ xhttp.onreadystatechange = function() {
                  `<div class=""> ${v.purpose} </div>`
              })
            }
+
+           if(loanTerms){
+            s('.loanTerms'.toUpperCase()).innerHTML +=
+
+            `
+        <td>
+        <ul class="d-flex flex-wrap loanTerms_list"> 
+        <li class=" pr-4 pb-4 termName">
+        termName </li> 
+         <li class=" pr-4 pb-4 termValue"> termValue</li>
+         </ul>
+        </td>
+        `
+          loanTerms.forEach(v => {
+            s('.loanTerms_list .termName').innerHTML +=
+              `<div class=""> ${v.termName} </div>`
+            s('.loanTerms_list .termValue').innerHTML +=
+              `<div class=""> ${v.termValue} </div>`
+          })
+           }
+
+
+
            // //............ For Control The Parameters ...................
          /*   let trAll = document.querySelectorAll('.table_wrapper tr');
             trAll.forEach((val,id)=> {
@@ -312,5 +336,5 @@ xhttp.onreadystatechange = function() {
 
 
 // this is xml path url;
-xhttp.open("GET", './js/ABC.json', true);
+xhttp.open("GET", './js/AUEPD3620Kstatus.json', true);
 xhttp.send();

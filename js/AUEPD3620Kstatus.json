@@ -1,0 +1,101 @@
+{
+    "firstName": "SHASHANK",
+    "lastName": "DOVERIYAL",
+    "phone": "7506440818",
+    "emailId": "shashank.doveriyal@icicilombard.com",
+    "currentCity": "Bangalore",
+    "panNumber": "AUEPD3620K",
+    "dateOfBirth": "1991-09-28",
+    "gender": "MALE",
+    "maritalStatus": "SINGLE",
+    "monthlyIncome": [{
+            "month": 5,
+            "year": 2020,
+            "amount": 70000.00
+        },
+        {
+            "month": 4,
+            "year": 2020,
+            "amount": 70000.00
+        },
+        {
+            "month": 3,
+            "year": 2020,
+            "amount": 70000.00
+        }
+    ],
+    "officeEmail": "shashank.doveriyal@icicilombard.com",
+    "companyName": "ICICI BANK",
+    "companyType": "PRIVATE_LIMITED",
+    "employmentType": "FULL_TIME",
+    "jobType": "SALARIED",
+    "officeAddress": {
+        "id": 8360457,
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": 560068,
+        "geoLocation": null,
+        "landmark": "next to HDFC bank ATM",
+        "addressType": null,
+        "addressLine1": "47/5, Kudlu Rd, BTR Gardens Madiwala,",
+        "addressLine2": "post, Singasandra",
+        "citySubdivision1": null,
+        "citySubdivision2": null
+    },
+    "homeAddress": {
+        "id": 8360458,
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": 560017,
+        "geoLocation": null,
+        "landmark": "old airport road",
+        "addressType": null,
+        "addressLine1": "NO. 201, washleigh manor, Rustom Baugh,",
+        "addressLine2": ", Rustom Baugh,",
+        "citySubdivision1": null,
+        "citySubdivision2": null
+    },
+    "residenceType": "RENTED_WITH_FRIENDS",
+    "totalWorkExperience": {
+        "months": 1,
+        "years": 3,
+        "totalMonths": 37
+    },
+    "selfEmployedAdditionalDetails": {
+        "firstCredit": null,
+        "openCredit": "UNKNOWN",
+        "hasCreditCard": "UNKNOWN",
+        "hasLoan": "UNKNOWN"
+    },
+    "softApprovalStatus": "success",
+    "finalApprovalStatus": "processing",
+    "amount": "100000",
+    "bank": "DMI",
+    "documentCollector": "money-tap",
+    "loanTerms": [{
+            "termName": "Interest Rates",
+            "termValue": "25%"
+        },
+        {
+            "termName": "Loan Tenure",
+            "termValue": "3 - 12 months"
+        },
+        {
+            "termName": "Processing Fee",
+            "termValue": "0 - 3% or Upto ₹ 750"
+        },
+        {
+            "termName": "Foreclosure Charges",
+            "termValue": "0"
+        },
+        {
+            "termName": "Minimum Loan Amount",
+            "termValue": "3000.0"
+        },
+        {
+            "termName": "Upfront Fee",
+            "termValue": "₹ 499 only"
+        }
+    ],
+    "bankStatementsWaived": true
+}
